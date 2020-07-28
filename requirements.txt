@@ -1,0 +1,5 @@
+joblib==0.13.2
+nltk==3.4.0
+underthesea
+tensorflow==1.15.0
+keras==2.3.1

@@ -1,0 +1,12 @@
+- name: api
+  predictor:
+    type: python
+    path: predictor.py
+    config:
+        model: 's3://liver-ct/my_models/model.hdf5'
+  # networking:
+  #   local_port: 8080
+  compute:
+    cpu: 1
+  monitoring:
+    model_type: classification
